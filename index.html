@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AeroPal 隱私政策 - 了解我們如何收集、使用和保護您的個人資訊">
+    <title>AeroPal - 隱私政策 (Privacy Policy)</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            color: #333;
+            background: #f5f5f7;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #007AFF;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+            color: #007AFF;
+        }
+
+        .last-updated {
+            color: #666;
+            font-size: 14px;
+            font-style: italic;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 30px 0 15px;
+            color: #007AFF;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 8px;
+        }
+
+        h3 {
+            font-size: 18px;
+            margin: 20px 0 10px;
+            color: #555;
+        }
+
+        p,
+        li {
+            font-size: 16px;
+            margin-bottom: 12px;
+        }
+
+        ul {
+            margin-left: 20px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        strong {
+            color: #007AFF;
+        }
+
+        .highlight {
+            background: #f0f9ff;
+            padding: 20px;
+            border-left: 4px solid #007AFF;
+            margin: 25px 0;
+            border-radius: 4px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .contact-box {
+            background: #007AFF;
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .contact-box a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            border-bottom: 2px solid white;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .language-switch {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .language-switch a {
+            color: #007AFF;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: 500;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>✈️ AeroPal</h1>
+            <h1>隱私政策</h1>
+            <p class="last-updated">Privacy Policy | 最後更新：2025 年 10 月 16 日</p>
+        </header>
+
+        <div class="language-switch">
+            <a href="#zh-tw">中文</a> | <a href="#en">English</a>
+        </div>
+
+        <!-- 中文版 -->
+        <div id="zh-tw">
+            <div class="highlight">
+                <strong>您的隱私對我們很重要。</strong> AeroPal 承諾保護您的個人資訊，並僅在您授權的範圍內使用。本隱私政策說明我們如何收集、使用、儲存和保護您的資料。
+            </div>
+
+            <div class="section">
+                <h2>1. 我們收集的資訊</h2>
+
+                <h3>1.1 帳號資訊</h3>
+                <ul>
+                    <li><strong>Email 地址</strong> - 用於帳號註冊、登入和身份驗證</li>
+                    <li><strong>顯示名稱</strong> - 選填，由您自訂，用於在好友列表中顯示</li>
+                    <li><strong>個人頭像</strong> - 選填，由您上傳，儲存於 Firebase Storage</li>
+                    <li><strong>居住地</strong> - 選填，由您提供，用於個人資料展示</li>
+                </ul>
+
+                <h3>1.2 航班資訊</h3>
+                <ul>
+                    <li>航班號碼和時刻表（起降時間）</li>
+                    <li>出發和抵達機場代碼（IATA）</li>
+                    <li>航班狀態（準時、延誤、取消等）</li>
+                    <li>登機門和航廈資訊</li>
+                    <li>航空公司名稱</li>
+                </ul>
+
+                <h3>1.3 社交互動資料</h3>
+                <ul>
+                    <li>好友關係（您加入的好友列表）</li>
+                    <li>好友請求記錄</li>
+                    <li>航班公開設定（您選擇公開給好友的航班）</li>
+                </ul>
+
+                <h3>1.4 技術資料</h3>
+                <ul>
+                    <li>裝置推播通知權杖（FCM Token）- 用於發送好友請求通知</li>
+                    <li>Firebase 用戶識別碼（UID）- 用於帳號管理</li>
+                    <li>App 使用統計（如有啟用 Firebase Analytics）</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>2. 我們如何使用您的資訊</h2>
+                <p>我們收集的資訊僅用於以下目的：</p>
+                <ul>
+                    <li><strong>提供核心服務</strong> - 航班追蹤、搜尋、狀態更新</li>
+                    <li><strong>社交功能</strong> - 好友管理、好友航班顯示</li>
+                    <li><strong>推播通知</strong> - 發送好友請求通知</li>
+                    <li><strong>帳號管理</strong> - 登入驗證、密碼重設</li>
+                    <li><strong>服務改進</strong> - 分析使用模式以改善功能（匿名統計）</li>
+                    <li><strong>技術支援</strong> - 處理用戶反饋和問題</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>3. 資料分享與第三方</h2>
+                <p>我們<strong>不會出售</strong>您的個人資訊給任何第三方。</p>
+
+                <h3>3.1 服務提供商</h3>
+                <p>我們使用以下第三方服務來運營 App：</p>
+                <ul>
+                    <li><strong>Firebase (Google Cloud)</strong> - 認證、資料庫、儲存、推播通知
+                        <br><small>隱私政策：<a href="https://firebase.google.com/support/privacy"
+                                target="_blank">https://firebase.google.com/support/privacy</a></small>
+                    </li>
+                    <li><strong>AeroDataBox API</strong> - 獲取公開的航班時刻表資訊
+                        <br><small>注意：我們僅查詢航班號碼，不分享您的個人資訊</small>
+                    </li>
+                </ul>
+
+                <h3>3.2 好友間的資料分享</h3>
+                <p>您可以選擇將特定航班標記為「公開」，這樣您的好友可以看到：</p>
+                <ul>
+                    <li>航班號碼和時刻表</li>
+                    <li>出發和抵達機場</li>
+                    <li>航班狀態</li>
+                </ul>
+                <p><strong>重要：</strong>只有您加為好友的用戶才能看到您的公開航班。您可以隨時修改公開設定。</p>
+
+                <h3>3.3 法律要求</h3>
+                <p>在以下情況下，我們可能被要求揭露您的資訊：</p>
+                <ul>
+                    <li>遵守法律義務或法院命令</li>
+                    <li>保護我們的權利、財產或安全</li>
+                    <li>防止詐欺或安全威脅</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>4. 資料安全</h2>
+                <p>我們採取以下措施保護您的資料：</p>
+                <ul>
+                    <li><strong>加密傳輸</strong> - 所有資料透過 HTTPS/TLS 加密傳輸</li>
+                    <li><strong>安全儲存</strong> - 資料儲存於 Firebase 安全資料庫，受 Google Cloud 企業級安全保護</li>
+                    <li><strong>存取控制</strong> - 使用 Firestore Security Rules 確保只有授權用戶可存取資料</li>
+                    <li><strong>密碼保護</strong> - 密碼使用 Firebase Auth 加密儲存，我們無法看到您的明文密碼</li>
+                    <li><strong>定期審查</strong> - 定期檢查和更新安全措施</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>5. 資料保留</h2>
+                <ul>
+                    <li><strong>帳號資料</strong> - 保留至您刪除帳號為止</li>
+                    <li><strong>航班資料</strong> - 保留至您手動刪除航班為止</li>
+                    <li><strong>好友關係</strong> - 保留至您或對方刪除好友關係為止</li>
+                    <li><strong>推播權杖</strong> - 當您登出或刪除帳號時自動清除</li>
+                    <li><strong>快取資料</strong> - 航班快取資料可能保留最多 7 天以優化效能</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>6. 您的權利</h2>
+                <p>根據適用的隱私法規，您擁有以下權利：</p>
+                <ul>
+                    <li><strong>存取權</strong> - 查看我們持有的您的個人資料</li>
+                    <li><strong>更正權</strong> - 更新或修正不正確的資料</li>
+                    <li><strong>刪除權</strong> - 要求刪除您的帳號和所有相關資料</li>
+                    <li><strong>控制權</strong> - 管理航班公開範圍和好友可見性設定</li>
+                    <li><strong>退出權</strong> - 關閉推播通知或刪除帳號</li>
+                    <li><strong>資料可攜權</strong> - 要求匯出您的資料（請聯繫我們）</li>
+                </ul>
+
+                <p><strong>如何行使權利：</strong></p>
+                <ul>
+                    <li>更新個人資料：在 App 內「個人資料」頁面直接編輯</li>
+                    <li>刪除航班：長按航班項目選擇刪除</li>
+                    <li>刪除帳號或匯出資料：請透過下方聯繫方式與我們聯絡</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>7. 兒童隱私</h2>
+                <p>AeroPal 適合所有年齡使用（App Store 分級：4+）。我們不會故意收集 13 歲以下兒童的個人資訊。如果您是家長並發現您的孩子向我們提供了個人資訊，請聯繫我們，我們將立即刪除相關資料。
+                </p>
+            </div>
+
+            <div class="section">
+                <h2>8. Cookies 和追蹤技術</h2>
+                <p>AeroPal 不使用 Cookies 或第三方追蹤技術來投放廣告。我們可能使用以下技術：</p>
+                <ul>
+                    <li><strong>Firebase Analytics</strong> - 收集匿名使用統計以改善服務（如有啟用）</li>
+                    <li><strong>本地儲存</strong> - 在您的裝置上儲存登入狀態和偏好設定</li>
+                </ul>
+                <p>您可以在 iOS 設定中限制追蹤：<strong>設定 → 隱私權 → 追蹤 → 關閉「允許 App 要求追蹤」</strong></p>
+            </div>
+
+            <div class="section">
+                <h2>9. 國際資料傳輸</h2>
+                <p>您的資料可能儲存於 Firebase 在全球的資料中心。我們確保所有資料傳輸符合適用的資料保護法規（包括 GDPR 和 CCPA）。Firebase 提供適當的安全保障措施以保護跨境傳輸的資料。</p>
+            </div>
+
+            <div class="section">
+                <h2>10. 政策變更</h2>
+                <p>我們可能不定期更新本隱私政策。重大變更時，我們會：</p>
+                <ul>
+                    <li>在 App 內顯示通知</li>
+                    <li>更新本頁面的「最後更新」日期</li>
+                    <li>如有必要，要求您重新接受新政策</li>
+                </ul>
+                <p>建議您定期查看本頁面以了解最新的隱私保護措施。</p>
+            </div>
+
+            <div class="contact-box">
+                <h2 style="color: white; border: none;">📧 聯繫我們</h2>
+                <p>如果您對本隱私政策有任何疑問、疑慮或要求，請聯繫我們：</p>
+                <p><strong>Email：</strong><a href="mailto:brian770130@icloud.com">brian770130@icloud.com</a></p>
+                <p style="margin-top: 10px; font-size: 14px;">我們通常會在 48 小時內回覆</p>
+            </div>
+        </div>
+
+        <hr style="margin: 60px 0; border: none; border-top: 2px solid #e0e0e0;">
+
+        <!-- English Version -->
+        <div id="en">
+            <h1 style="text-align: center; color: #007AFF; margin-bottom: 30px;">Privacy Policy (English)</h1>
+
+            <div class="highlight">
+                <strong>Your privacy is important to us.</strong> AeroPal is committed to protecting your personal
+                information and using it only within the scope of your authorization. This Privacy Policy explains how
+                we collect, use, store, and protect your data.
+            </div>ㄅ
+
+            <div class="section">
+                <h2>1. Information We Collect</h2>
+
+                <h3>1.1 Account Information</h3>
+                <ul>
+                    <li><strong>Email Address</strong> - For account registration, login, and authentication</li>
+                    <li><strong>Display Name</strong> - Optional, user-provided, displayed in friend lists</li>
+                    <li><strong>Profile Photo</strong> - Optional, user-uploaded, stored in Firebase Storage</li>
+                    <li><strong>Location</strong> - Optional, user-provided, for profile display</li>
+                </ul>
+
+                <h3>1.2 Flight Information</h3>
+                <ul>
+                    <li>Flight numbers and schedules (departure/arrival times)</li>
+                    <li>Departure and arrival airport codes (IATA)</li>
+                    <li>Flight status (on-time, delayed, cancelled, etc.)</li>
+                    <li>Gate and terminal information</li>
+                    <li>Airline names</li>
+                </ul>
+
+                <h3>1.3 Social Interaction Data</h3>
+                <ul>
+                    <li>Friend relationships (your friend list)</li>
+                    <li>Friend request records</li>
+                    <li>Flight visibility settings (flights you share with friends)</li>
+                </ul>
+
+                <h3>1.4 Technical Data</h3>
+                <ul>
+                    <li>Device push notification token (FCM Token) - For friend request notifications</li>
+                    <li>Firebase User ID (UID) - For account management</li>
+                    <li>App usage statistics (if Firebase Analytics is enabled)</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>2. How We Use Your Information</h2>
+                <p>We use the collected information solely for the following purposes:</p>
+                <ul>
+                    <li><strong>Core Services</strong> - Flight tracking, search, status updates</li>
+                    <li><strong>Social Features</strong> - Friend management, friend flight display</li>
+                    <li><strong>Push Notifications</strong> - Send friend request notifications</li>
+                    <li><strong>Account Management</strong> - Login authentication, password reset</li>
+                    <li><strong>Service Improvement</strong> - Analyze usage patterns to improve features (anonymous
+                        statistics)</li>
+                    <li><strong>Technical Support</strong> - Handle user feedback and issues</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>3. Data Sharing and Third Parties</h2>
+                <p>We <strong>do not sell</strong> your personal information to any third parties.</p>
+
+                <h3>3.1 Service Providers</h3>
+                <p>We use the following third-party services to operate the App:</p>
+                <ul>
+                    <li><strong>Firebase (Google Cloud)</strong> - Authentication, database, storage, push notifications
+                        <br><small>Privacy Policy: <a href="https://firebase.google.com/support/privacy"
+                                target="_blank">https://firebase.google.com/support/privacy</a></small>
+                    </li>
+                    <li><strong>AeroDataBox API</strong> - Retrieve publicly available flight schedule information
+                        <br><small>Note: We only query flight numbers, not your personal information</small>
+                    </li>
+                </ul>
+
+                <h3>3.2 Sharing with Friends</h3>
+                <p>You can mark specific flights as "public", allowing your friends to see:</p>
+                <ul>
+                    <li>Flight numbers and schedules</li>
+                    <li>Departure and arrival airports</li>
+                    <li>Flight status</li>
+                </ul>
+                <p><strong>Important:</strong> Only users you've added as friends can see your public flights. You can
+                    change visibility settings at any time.</p>
+
+                <h3>3.3 Legal Requirements</h3>
+                <p>We may be required to disclose your information in the following circumstances:</p>
+                <ul>
+                    <li>To comply with legal obligations or court orders</li>
+                    <li>To protect our rights, property, or safety</li>
+                    <li>To prevent fraud or security threats</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>4. Data Security</h2>
+                <p>We take the following measures to protect your data:</p>
+                <ul>
+                    <li><strong>Encrypted Transmission</strong> - All data transmitted via HTTPS/TLS encryption</li>
+                    <li><strong>Secure Storage</strong> - Data stored in Firebase secure databases, protected by Google
+                        Cloud enterprise-grade security</li>
+                    <li><strong>Access Control</strong> - Firestore Security Rules ensure only authorized users can
+                        access data</li>
+                    <li><strong>Password Protection</strong> - Passwords encrypted by Firebase Auth; we cannot see your
+                        plaintext password</li>
+                    <li><strong>Regular Reviews</strong> - Periodic security audits and updates</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>5. Data Retention</h2>
+                <ul>
+                    <li><strong>Account Data</strong> - Retained until you delete your account</li>
+                    <li><strong>Flight Data</strong> - Retained until you manually delete flights</li>
+                    <li><strong>Friend Relationships</strong> - Retained until you or the other party removes the
+                        friendship</li>
+                    <li><strong>Push Tokens</strong> - Automatically cleared when you log out or delete your account
+                    </li>
+                    <li><strong>Cache Data</strong> - Flight cache data may be retained for up to 7 days for performance
+                        optimization</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>6. Your Rights</h2>
+                <p>Under applicable privacy laws, you have the following rights:</p>
+                <ul>
+                    <li><strong>Access</strong> - View your personal data we hold</li>
+                    <li><strong>Correction</strong> - Update or correct inaccurate data</li>
+                    <li><strong>Deletion</strong> - Request deletion of your account and all related data</li>
+                    <li><strong>Control</strong> - Manage flight visibility and friend access settings</li>
+                    <li><strong>Opt-out</strong> - Disable push notifications or delete your account</li>
+                    <li><strong>Data Portability</strong> - Request export of your data (contact us)</li>
+                </ul>
+
+                <p><strong>How to Exercise Your Rights:</strong></p>
+                <ul>
+                    <li>Update profile: Edit directly in the "Profile" page in the App</li>
+                    <li>Delete flights: Long-press flight item and select delete</li>
+                    <li>Delete account or export data: Contact us via the information below</li>
+                </ul>
+            </div>
+
+            <div class="section">
+                <h2>7. Children's Privacy</h2>
+                <p>AeroPal is suitable for all ages (App Store Rating: 4+). We do not knowingly collect personal
+                    information from children under 13. If you are a parent and discover that your child has provided us
+                    with personal information, please contact us and we will promptly delete it.</p>
+            </div>
+
+            <div class="section">
+                <h2>8. Cookies and Tracking Technologies</h2>
+                <p>AeroPal does not use cookies or third-party tracking for advertising. We may use:</p>
+                <ul>
+                    <li><strong>Firebase Analytics</strong> - Collect anonymous usage statistics to improve services (if
+                        enabled)</li>
+                    <li><strong>Local Storage</strong> - Store login status and preferences on your device</li>
+                </ul>
+                <p>You can limit tracking in iOS Settings: <strong>Settings → Privacy → Tracking → Turn off "Allow Apps
+                        to Request to Track"</strong></p>
+            </div>
+
+            <div class="section">
+                <h2>9. International Data Transfers</h2>
+                <p>Your data may be stored in Firebase data centers globally. We ensure all data transfers comply with
+                    applicable data protection regulations (including GDPR and CCPA). Firebase provides appropriate
+                    safeguards for cross-border data transfers.</p>
+            </div>
+
+            <div class="section">
+                <h2>10. Policy Changes</h2>
+                <p>We may update this Privacy Policy periodically. For significant changes, we will:</p>
+                <ul>
+                    <li>Display notifications in the App</li>
+                    <li>Update the "Last Updated" date on this page</li>
+                    <li>Request your acceptance of the new policy if necessary</li>
+                </ul>
+                <p>We recommend reviewing this page regularly to stay informed about our privacy practices.</p>
+            </div>
+
+            <div class="contact-box">
+                <h2 style="color: white; border: none;">📧 Contact Us</h2>
+                <p>If you have questions, concerns, or requests regarding this Privacy Policy, please contact us:</p>
+                <p><strong>Email:</strong> <a href="mailto:brian770130@icloud.com">brian770130@icloud.com</a></p>
+                <p style="margin-top: 10px; font-size: 14px;">We typically respond within 48 hours</p>
+            </div>
+        </div>
+
+        <footer>
+            <p>© 2025 AeroPal. All rights reserved.</p>
+            <p style="margin-top: 10px;">
+                <a href="mailto:brian770130@icloud.com" style="color: #007AFF; text-decoration: none;">Support</a> |
+                <a href="#zh-tw" style="color: #007AFF; text-decoration: none;">中文</a> |
+                <a href="#en" style="color: #007AFF; text-decoration: none;">English</a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
